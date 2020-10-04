@@ -9,7 +9,7 @@
       Title="Game1">
 
     <Grid Background="#FF004D0B">
-        <Frame Name="Restart" Content="Frame" HorizontalAlignment="Left" Height="440" Margin="10,0,0,0" VerticalAlignment="Top" Width="780"/>
+        <Frame Name="Restart" Content="" HorizontalAlignment="Left" Height="440" Margin="10,0,0,0" VerticalAlignment="Top" Width="780" Visibility="Hidden"/>
         <Image Margin="-10,-27,0,-24" Source="poker-table-png-5.png" Stretch="Fill"/>
         <Button x:Name="btnAdd" Content="Hit" HorizontalAlignment="Left" Margin="84,318,0,0" VerticalAlignment="Top" Width="170" Click="BtnAdd_Click" Background="#FF494946" Height="38" Opacity="0.75"/>
         <Button x:Name="btnStop" Content="Stay" HorizontalAlignment="Left" Margin="550,318,0,0" VerticalAlignment="Top" Width="137" Click="BtnStop_Click" Background="#FF6E1818" Height="38"/>

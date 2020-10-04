@@ -14,7 +14,7 @@
                 <DropShadowEffect Color="#FF0DFF2E" Opacity="0.995" RenderingBias="Quality" BlurRadius="40"/>
             </Image.Effect>
         </Image>
-        <Frame Name="Inicio" Content="Frame" HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="772" Visibility="Hidden"/>
+        <Frame Name="Inicio" Content="" Visibility="Visible"/>
         <Button Name="btnStart" Content="Comenzar Juego" HorizontalAlignment="Left" Margin="297,248,0,0" VerticalAlignment="Top" Width="172" Click="BtnStart_Click" Height="71" FontSize="16" FontWeight="Bold" Foreground="#FF4B4747">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
